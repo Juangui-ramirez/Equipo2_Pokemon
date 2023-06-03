@@ -32,9 +32,8 @@ header {
     align-items: center;
 }
 
-.links {
+.links > li > a {
     color: white;
-    /* text-decoration: none; */
 }
 
 .links li:hover {
