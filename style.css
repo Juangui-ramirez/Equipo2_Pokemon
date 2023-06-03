@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400&display=swap');
 
-*{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: 'Plus Jakarta Sans', sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 header {
@@ -12,42 +12,74 @@ header {
     background-color: #306BB3;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     width: 200px;
 }
 
   footer>div:first-child{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     gap: 10px;
-
 }
 
-  footer>div:last-child{
+main {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.card {
+    background: #DEE5ED;
+    max-width: 25%;
+    margin: 5px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+.cardImg {
+    background: white;
+}
+
+
+footer>div:last-child {
     display: flex;
     width: 50%;
     justify-content: space-between;
-  }
 
-footer{
+}
+
+footer {
     padding: 5%;
     background-color: #306BB3;
     display: flex;
     justify-content: space-between;
 }
-.links_container>p{
+
+.links_container>p {
     color: white;
     font-weight: bolder;
     text-transform: capitalize;
     margin-bottom: 20px;
-  }
-.links_container>ul{
+}
+
+.links_container>ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  .socialmedia{
+}
+
+.socialmedia {
     display: flex;
     flex-direction: row;
     gap: 20px;
-  }
+}
