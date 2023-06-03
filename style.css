@@ -11,7 +11,7 @@ header {
     display: flex;
     background-color: #306BB3;
     justify-content: space-between;
-    height: 20vh;
+    height: auto;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
@@ -21,6 +21,18 @@ header {
 
 .logo {
     width: 200px;
+}
+
+.logoHeader {
+    width: 150px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+
+.listheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .links {
@@ -34,6 +46,7 @@ header {
 
 .links > li > a {
     color: white;
+    text-decoration: none;
 }
 
 .links li:hover {
