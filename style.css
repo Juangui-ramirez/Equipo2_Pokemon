@@ -32,6 +32,11 @@ header {
     align-items: center;
 }
 
+.links {
+    color: white;
+    /* text-decoration: none; */
+}
+
 .links li:hover {
     text-decoration: underline white;
 }
