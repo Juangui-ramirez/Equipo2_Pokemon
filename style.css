@@ -28,3 +28,29 @@ footer p{
     flex-direction: column;
     justify-content: space-around;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.card {
+    background: #DEE5ED;
+    max-width: 25%;
+    margin: 5px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.name {
+    display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  align-items:center;
+  padding: 1% 5%;
+}
+
+.cardImg {
+    background: white;
+}
