@@ -11,7 +11,7 @@ header {
     display: flex;
     background-color: #306BB3;
     justify-content: space-between;
-    height: 20vh;
+    height: auto;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
@@ -23,6 +23,18 @@ header {
     width: 200px;
 }
 
+.logoHeader {
+    width: 150px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+
+.listheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .links {
     display: flex;
     flex-direction: row;
@@ -32,11 +44,25 @@ header {
     align-items: center;
 }
 
+.links > li > a {
+    color: white;
+    text-decoration: none;
+}
+
 .links li:hover {
     text-decoration: underline white;
 }
+header>div>button{
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+    width: 25%;
+    border-style: none;
+    font-weight: bold;
+    color: #306BB3;
+}
 
-  footer>div:first-child{
+footer>div:first-child{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
