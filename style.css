@@ -35,6 +35,13 @@ header {
 .links li:hover {
     text-decoration: underline white;
 }
+header>div>button{
+    padding: 10%;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 120%;
+    border-style: none;
+}
 
   footer>div:first-child{
     display: flex;
