@@ -11,7 +11,7 @@ header {
     display: flex;
     background-color: #306BB3;
     justify-content: space-between;
-    height: 8vh;
+    height: 20vh;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
@@ -36,19 +36,12 @@ header {
     text-decoration: underline white;
 }
 
-
-
-footer{
-    background-color: #306bb3;
-    display: flex;
-    flex-direction: row;
-}
-
-footer>div:first-child {
+  footer>div:first-child{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 10px;
+    color: white;
 }
 
 main {
@@ -82,6 +75,7 @@ footer>div:last-child {
     display: flex;
     width: 50%;
     justify-content: space-between;
+    color: white;
 
 }
 
@@ -97,16 +91,23 @@ footer {
     font-weight: bolder;
     text-transform: capitalize;
     margin-bottom: 20px;
+    list-style: none;
 }
 
 .links_container>ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: white;
+    list-style: none;
 }
 
 .socialmedia {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    color: white;
+}
+.socialmedia a {
+    color: white;
 }
