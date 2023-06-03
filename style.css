@@ -56,9 +56,10 @@ header>div>button{
     padding: 2%;
     background-color: white;
     border-radius: 10px;
+    width: 25%;
     border-style: none;
     font-weight: bold;
-    color: black;
+    color: #306BB3;
 }
 
 footer>div:first-child{
