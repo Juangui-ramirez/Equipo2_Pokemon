@@ -36,14 +36,15 @@ header {
     text-decoration: underline white;
 }
 header>div>button{
-    padding: 10%;
+    padding: 2%;
+    background-color: white;
     border-radius: 10px;
-    font-weight: bold;
-    width: 120%;
     border-style: none;
+    font-weight: bold;
+    color: black;
 }
 
-  footer>div:first-child{
+footer>div:first-child{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
