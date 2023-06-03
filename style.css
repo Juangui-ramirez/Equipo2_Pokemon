@@ -36,14 +36,6 @@ header {
     text-decoration: underline white;
 }
 
-
-
-footer{
-    background-color: #306bb3;
-    display: flex;
-    flex-direction: row;
-}
-
   footer>div:first-child{
     display: flex;
     flex-direction: column;
