@@ -14,14 +14,14 @@ header {
 }
 .logo{
     width: 200px;
-
 }
+
   footer>div:first-child{
     display: flex;
     flex-direction: column;
     gap: 10px;
 
-  }
+}
 
   footer>div:last-child{
     display: flex;
