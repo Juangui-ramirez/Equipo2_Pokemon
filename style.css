@@ -25,7 +25,14 @@ header {
     list-style: none;
     gap: 30px;
     margin: 0 3vw 0 5vw;
+    align-items: center;
 }
+
+.links li:hover {
+    text-decoration: underline white;
+}
+
+
 
 footer{
     background-color: #306bb3;
