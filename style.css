@@ -12,19 +12,42 @@ header {
     background-color: #306BB3;
     justify-content: space-between;
 }
+.logo{
+    width: 200px;
 
-footer{
-    background-color: #306bb3;
-    display: flex;
-    flex-direction: row;
 }
-
-footer p{
-    color: white;
-}
-
-.footer-flexbox {
+  footer>div:first-child{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 10px;
+
+  }
+
+  footer>div:last-child{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+
+footer{
+    padding: 5%;
+    background-color: #306BB3;
+    display: flex;
+    justify-content: space-between;
 }
+.links_container>p{
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+.links_container>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .socialmedia{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
